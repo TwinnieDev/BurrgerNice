@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <title>Burger Nice</title>
+</head>
+
+<body id="mypage">
+
+    <div class="background">
+        <!-- nav -->
+        <header class="container">
+            <div class="nav">
+                <div class="nav-left">
+                    <button class="fa-solid fa-magnifying-glass" id="txtsearch"></button>
+                </div>
+                <div class="nav-mid">
+                    <a href="#mypage">Home</a>
+                    <a href="#menu">Menu</a>
+                    <a href="#about">About</a>
+                    <a href="#mypage"><img src="images/logo.png" alt="Logo"></a>
+                    <a href="#reviews">Reviews</a>
+                    <a href="#contact">Contact</a>
+                    <a href="#blogs">Blogs</a>
+                </div>
+                <div class="container-mobile">
+                    <div class="topnav" id="myTopnav">
+                        <a href="#mypage">Burger Nice</a>
+                        <a href="#menu">Menu</a>
+                        <a href="#about">About</a>
+                        <a href="#reviews">Reviews</a>
+                        <a href="#contact">Contact</a>
+                        <a href="#blogs">Blogs</a>
+                        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                          <i class="fa fa-bars"></i>
+                        </a>
+                      </div>
+                    </div>
+                <div class="nav-right">
+                    <button class="fa-solid fa-cart-shopping"></button>
+                </div>
+            </div>
+            <div class="search" id="showsear">
+                <input type="text" class="txtsearch">
+                <button id="close" class="btnclose">X</button>
+            </div>
+        </header>
+
+        <!-- slider -->
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <div class="numbertext"></div>
+                <img src="images/banner1.jpg" class="sliderimg">
+
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext"></div>
+                <img src="images/banner2.jpg" class="sliderimg">
+
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext"></div>
+                <img src="images/banne3.png" class="sliderimg">
+
+            </div>
+            <br>
+            <div style="text-align:center">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+        <!-- menu -->
+        <div class="menu slideanim" id="menu">
+            <img src="images/menulogo.png" class="menulogo" alt="menu">
+        </div>
+        <div class="box">
+            <div class="product slideanim">
+                <div class="slide-img">
+                    <img src="images/p.jpg" alt="1">
+                </div>
+                <div class="detail-box">
+                    <div class="rateStar">
+                        <span class="fa fa-star  star checked"></span>
+                        <span class="fa fa-star  star checked"></span>
+                        <span class="fa fa-star  star checked"></span>
+                        <span class="fa fa-star  star checked"></span>
+                        <span class="fa fa-star  star"></span>
+                    </div>
+                    <div class="title">
+                        <p>Cheese Burger</p>
+                        <p>29.99$</p>
+                    </div>
+                    <div class="btncart">
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="product slideanim">
+                <div class="slide-img">
+                    <img src="images/p1.jpg" alt="1">
+                </div>
+                <div class="detail-box">
+                    <div class="rateStar">
+                        <span class="fa fa-star  star checked"></span>
+                        <span class="fa fa-star  star checked"></span>
+                        <span class="fa fa-star  star checked"></span>
+                        <span class="fa fa-star  star checked"></span>
+                        <span class="fa fa-star  star"></span>
+                    </div>
+                    <div class="title">
+                        <p>Cheese Burger</p>
+                        <p>29.99$</p>
+                    </div>
+                    <div class="btncart">
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="product slideanim">
+                <div class="slide-img">
+                    <img src="images/p3.jpg" alt="1">
+                </div>
+                <div class="detail-box">
+                    <div class="rateStar">
+                        <span class="fa fa-star  star checked"></span>
+                        <span class="fa fa-star  star checked"></span>
+                        <span class="fa fa-star  star checked"></span>
+                        <span class="fa fa-star  star checked"></span>
+                        <span class="fa fa-star  star"></span>
+                    </div>
+                    <div class="title">
+                        <p>Cheese Burger</p>
+                    </div>
+                    <div class="title">
+                        <p>29.99$</p>
+                    </div>
+                    <div class="btncart">
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="product slideanim">
+                <div class="slide-img">
+                    <img src="images/p4.jpg" alt="1">
+                </div>
+                <div class="detail-box">
+                    <div class="rateStar">
+                        <span class="fa fa-star  star checked"></span>
+                        <span class="fa fa-star  star checked"></span>
+                        <span class="fa fa-star  star checked"></span>
+                        <span class="fa fa-star  star checked"></span>
+                        <span class="fa fa-star  star"></span>
+                    </div>
+                    <div class="title">
+                        <p>Cheese Burger</p>
+                        <p>29.99$</p>
+                    </div>
+                    <div class="btncart">
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="about"></div>
+        <!-- about -->
+    
+        <h1 class="titleabout">. About</h1>
+        <div class="about">
+            <div class="imgAbout slideanim2">
+                <img src="images/p3.jpg" alt="">
+            </div>
+            <div class="textAbout slideanim1">
+                <h1>STEP INTO BURGER HEAVEN</h1>
+                <span class="txtabout">BURGER NICE® commenced operations in Vietnam since 2011 through the opening of
+                    its
+                    first restaurant at
+                    Tan Son Nhat Airport. With the mission of offering quality food& beverage and retail services to
+                    people,
+                    the company is expanding quickly with a professional and experienced team with passion for food and
+                    beverage. The company's retail and food and beverage experience in Vietnam in general and airport in
+                    particular make us well-positioned to develop Burger King into a leading brand in the
+                    country.</span>
+                <div class="checkAbout">
+                    <div class="txtcheckAbout">
+                        <div class="txtcheckAbout1">
+                            <span class="fa-solid fa-check check"></span>
+                            <span>BEST PRICE</span>
+                        </div>
+                        <div class="txtcheckAbout1">
+                            <span class="fa-solid fa-check check"></span>
+                            <span>BACKED BUNS</span>
+                        </div>
+                    </div>
+                    <div class="txtcheckAbout">
+                        <div class="txtcheckAbout1">
+                            <span class="fa-solid fa-check check"></span>
+                            <span>BEST SERVICE</span>
+                        </div>
+                        <div class="txtcheckAbout1">
+                            <span class="fa-solid fa-check check"></span>
+                            <span>NATURAL CHEESE</span>
+                        </div>
+                    </div>
+                    <div class="txtcheckAbout">
+                        <div class="txtcheckAbout1">
+                            <span class="fa-solid fa-check check"></span>
+                            <span>FRESH INGREDIENT</span>
+                        </div>
+                        <div class="txtcheckAbout1">
+                            <span class="fa-solid fa-check check"></span>
+                            <span>VEG & NON.VEG</span>
+                        </div>
+                    </div>
+                </div>
+                <button class="btnabout">Read more</button>
+            </div>
+        </div>
+
+        <!-- Reviews -->
+        <div id="reviews"></div>
+        <h1 class="titleabout">TESTIMONIAL</h1>
+        <div class="reviews slideanim">
+            <div class="revdiv">
+                <div class="imgrev_txt">
+                    <img src="images/rev2.jpg" alt="rev1">
+                    <span>Steve Rogers</span>
+                </div>
+                <div class="txtre">
+                    <span>I strongly did not recommend Burger King in Vietnam. U can try Vietnamese bread which much
+                        more
+                        better
+                        than this even I ate Burger King when traveling aboard. This rate also is my respond for *Ad
+                        Showing
+                        People Eating Its Vietnamese Burger With Oversized Chopsticks*.</span>
+                </div>
+                <div class="rateStar">
+                    <span class="fa fa-star  star checked"></span>
+                    <span class="fa fa-star  star checked"></span>
+                    <span class="fa fa-star  star checked"></span>
+                    <span class="fa fa-star  star checked"></span>
+                    <span class="fa fa-star  star"></span>
+                </div>
+            </div>
+            <div class="revdiv">
+                <div class="imgrev_txt">
+                    <img src="images/rev3.jpg" alt="rev1">
+                    <span>Tony Stark</span>
+                </div>
+                <div class="txtre">
+                    <span>I strongly did not recommend Burger King in Vietnam. U can try Vietnamese bread which much
+                        more
+                        better
+                        than this even I ate Burger King when traveling aboard. This rate also is my respond for *Ad
+                        Showing
+                        People Eating Its Vietnamese Burger With Oversized Chopsticks*.</span>
+                </div>
+                <div class="rateStar">
+                    <span class="fa fa-star  star checked"></span>
+                    <span class="fa fa-star  star checked"></span>
+                    <span class="fa fa-star  star checked"></span>
+                    <span class="fa fa-star  star checked"></span>
+                    <span class="fa fa-star  star"></span>
+                </div>
+            </div>
+            <div class="revdiv">
+                <div class="imgrev_txt">
+                    <img src="images/rev1.jpg" alt="rev1">
+                    <span>Will Smith</span>
+                </div>
+                <div class="txtre">
+                    <span>I strongly did not recommend Burger King in Vietnam. U can try Vietnamese bread which much
+                        more
+                        better
+                        than this even I ate Burger King when traveling aboard. This rate also is my respond for *Ad
+                        Showing
+                        People Eating Its Vietnamese Burger With Oversized Chopsticks*.</span>
+                </div>
+                <div class="rateStar">
+                    <span class="fa fa-star  star checked"></span>
+                    <span class="fa fa-star  star checked"></span>
+                    <span class="fa fa-star  star checked"></span>
+                    <span class="fa fa-star  star checked"></span>
+                    <span class="fa fa-star  star"></span>
+                </div>
+            </div>
+            <div id="contact"></div>
+        </div>
+        <!-- contact -->
+
+        <h1 class="titleabout">Contact</h1>
+        <div class="contact slideanim">
+            <div class="iconcont">
+                <div class="diviconcont">
+                    <span class="fa-solid fa-map iconcon"></span>
+                    <span class="txticon">Adress</span>
+                    <span class="txticon">Ho Chi Minh City</span>
+                </div>
+                <div class="diviconcont">
+                    <span class="fa-solid fa-envelope iconcon"></span>
+                    <span class="txticon">Email</span>
+                    <span class="txticon">BurgerNice@gmail.com</span>
+                </div>
+                <div class="diviconcont">
+                    <span class="fa-solid fa-phone iconcon"></span>
+                    <span class="txticon">Phone</span>
+                    <span class="txticon">09xxxxxxx</span>
+                </div>
+            </div>
+            <form class="formcont">
+                <input class="txtformcon" type="text" placeholder="Name">
+                <input type="text" placeholder="Email">
+                <input type="text" placeholder="Phone">
+                <textarea cols="30" rows="10" placeholder="Message"></textarea>
+            </form>
+            <button class="btncont">Send</button>
+        </div>
+        <!-- blogs -->
+        <div id="blogs"></div>
+        <h1 class="titleabout">Blogs</h1>
+        <div class="blogs">
+            <div class="divgblo slideanim2">
+                <div class="imgblo">
+                    <img src="images/p.jpg" alt="">
+                    <span>BLOG TITLE HERE</span>
+                </div>
+                <span class="txtblo">Cause you had a bad day
+                    You're taking one down
+                    You sing a sad song just to turn it around
+                    You say you don't know
+                    You tell me, "don't lie"
+                    You work at a smile, and you go for a ride</span>
+                <button class="btnblo">Read More</button>
+            </div>
+            <div class="divgblo slideanim">
+                <div class="imgblo">
+                    <img src="images/p4.jpg" alt="">
+                    <span>BLOG TITLE HERE</span>
+                </div>
+                <span class="txtblo">Cause you had a bad day
+                    You're taking one down
+                    You sing a sad song just to turn it around
+                    You say you don't know
+                    You tell me, "don't lie"
+                    You work at a smile, and you go for a ride</span>
+                <button class="btnblo">Read More</button>
+            </div>
+            <div class="divgblo slideanim1">
+                <div class="imgblo">
+                    <img src="images/p1.jpg" alt="">
+                    <span>BLOG TITLE HERE</span>
+                </div>
+                <span class="txtblo">Cause you had a bad day
+                    You're taking one down
+                    You sing a sad song just to turn it around
+                    You say you don't know
+                    You tell me, "don't lie"
+                    You work at a smile, and you go for a ride</span>
+                <button class="btnblo">Read More</button>
+            </div>
+        </div>
+        <footer class="footer">
+            <span>Copy right© Burger King</span>
+        </footer>
+    </div>
+    <script src="js/index.js"></script>
+    <button id="scrollTop" class="fa-solid fa-up-long scrollTop" onclick="scrollToTop()"></button>
+    
+</body>
+
+</html>
