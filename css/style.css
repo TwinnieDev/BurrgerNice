@@ -777,6 +777,9 @@ a {
     .btncart{
         width: 100%;
     }
+    .slide-img img{
+        width: 100%;
+    }
 }
 @media screen and (max-width: 800px) {
     .topnav a:not(:first-child) {display: none;}
