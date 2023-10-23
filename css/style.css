@@ -418,6 +418,7 @@ a {
     align-items: center;
     flex-direction: column;
     margin-right: 40px;
+    overflow: hidden;
 }
 
 .iconcont {
@@ -518,6 +519,7 @@ a {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    overflow: hidden;
 }
 
 .divgblo {
